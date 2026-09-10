@@ -7,7 +7,7 @@ import json
 import urllib.parse
 
 # --- CONFIGURATION ---
-API_KEY = "AIzaSyCB6Ncbz-ixuTvOHBI0UUFziQ7hGXL5IXI"
+API_KEY = "your_api_key"
 client = genai.Client(api_key=API_KEY)
 
 def extraire_donnees_avec_gemini(chemin_pdf):
